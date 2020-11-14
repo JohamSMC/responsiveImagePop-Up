@@ -25,3 +25,12 @@ section .box {
 	margin: 10px;
 	overflow: hidden;
 }
+
+section .box .imgBx {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ff0;
+}
