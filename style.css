@@ -43,3 +43,12 @@ section .box .imgBx.activate {
 	height: 100%;
 	z-index: 1000;
 }
+
+section .box .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
