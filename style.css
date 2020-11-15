@@ -72,9 +72,29 @@ section .box .imgBx.activate h2 {
 	opacity: 1;
 	visibility: visible;
 	text-align: center;
-	color: beige;
+	color: #fff;
 	font-size: 16px;
 	font-weight: 300;
 	margin-top: 15px;
 	letter-spacing: 4px;
+}
+
+section .box .imgBx .content {
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	left:50px;
+	opacity: 0;
+	visibility: hidden;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	color: #fff;
+	transform: translateY(100%);
+}
+
+section .box .imgBx.activate .content {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+	transition: 0.5s;
 }
